@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
  * main- Entry point. The program tells if number is positive,negative or zero
  * Return: 0 which means it exited successfully
@@ -10,10 +8,15 @@ int main(void)
 {
 	int n, comb;
 
-	for (n = 0; n <= 9; n++)
+	for (n = 0; n <= 99; n++)
 	{
-		for (comb = n; comb <= 9; comb++)
+		int n_tens = n / 10;
+		int n_ones = n % 10;
+		
+		for (comb = n; comb <= 99; comb++)
 		{
+			int comb_tens = comb / 10;
+			int comb_ones = comb % 10;
 			if(n != comb)
 			{
 				putchar(n / 10 + '0');
