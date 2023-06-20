@@ -17,7 +17,6 @@ int main(void)
 				putchar(n + '0');
 				putchar(comb + '0');
 				putchar(comb2 + '0');
-				
 				if (!(n == 7 && comb == 8 && comb2 == 9))
 				{
 					putchar(',');
