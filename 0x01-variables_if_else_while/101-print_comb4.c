@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
  * main- Entry point. The program tells if number is positive,negative or zero
  * Return: 0 which means it exited successfully
