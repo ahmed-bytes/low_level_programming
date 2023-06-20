@@ -10,11 +10,11 @@ int main(void)
 {
 	int n, comb;
 
-	for (n = 0; n <= 98; n++)
+	for (n = 0; n <= 9; n++)
 	{
-		for (comb = n + 1; comb <= 99; comb++)
+		for (comb = n; comb <= 9; comb++)
 		{
-			if(!(n == 98 && comb == 99))
+			if(n != comb)
 			{
 				putchar(n / 10 + '0');
 				putchar(n % 10 + '0');
@@ -23,7 +23,7 @@ int main(void)
 				putchar(comb % 10 + '0');
 				putchar(',');
 
-				if (n < 98 || comb < 99)
+				if (!(n == 9 && comb == 9))
 				{
 					putchar(' ');
 				}
