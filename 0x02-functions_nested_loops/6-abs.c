@@ -1,10 +1,19 @@
 #include "main.h"
 /**
- * main - Entry Point of the Program
- * Desc:
+ * _abs - Entry Point of the Program
+ * @num: Number to round of
  * Return: 0 means ran and exited successfully
  */
 
-int main(void)
+int _abs(int num)
 {
+    if (num > 0)
+    {
+        return (num);
+    }
+    else if (num < 0)
+    {
+        return (num * -1);
+    }
+    
 }
