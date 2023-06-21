@@ -1,10 +1,19 @@
 #include "main.h"
 /**
- * main - Entry Point of the Program
- * Desc:
+ * _isalpha - checks for lowercase character
+ * @c: character to compare
  * Return: 0 means ran and exited successfully
  */
 
-int main(void)
+int _isalpha(int c)
 {
+	if (c >= 'a' && c <= 'z')
+	{
+		return (1);
+	}
+	else if (c >= 'A' && c <= 'Z')
+	{
+		return (1);
+	}
+	return (0);
 }
