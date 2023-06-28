@@ -6,7 +6,7 @@
  */
 void times_table(void)
 {
-	int rows, columns;
+	int columns, rows;
 
 	for (columns = 0; columns <= 9; columns++)
 	{
@@ -20,7 +20,6 @@ void times_table(void)
 			}
 			else
 			{
-				_putchar(' ');
 				_putchar(' ');
 			}
 
