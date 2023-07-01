@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * print_line(int n) - A function that prints the numbers, from 0 to 9
+ * print_line - draws a straight line in the terminal
+ * @n: the number of times the character should be printed
  * Return: returns 0 if successful
  */
 
