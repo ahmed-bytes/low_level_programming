@@ -3,6 +3,7 @@
 /**
  * print_to_98 - Entry Point of the Program
  * Desc: prints all natural numbers from n to 98
+ * @n: parameter to be passed
  * Return: 0 means ran and exited successfully
  */
 
@@ -13,6 +14,10 @@ void print_to_98(int n)
 		while (n >= 98)
 		{
 			printf("%d, ", n);
+			if (n != 98)
+			{
+				printf(", ");
+			}
 			n--;
 		}
 		printf("\n");
@@ -22,13 +27,16 @@ void print_to_98(int n)
 		while (n <= 98)
 		{
 			printf("%d, ", n);
+			if (n != 98)
+			{
+				printf(", ");
+			}
 			n++;
 		}
 		printf("\n");
 	}
 	else
 	{
-		printf("%d, ", n);
-		printf("\n");
+		printf("%d\n, ", n);
 	}
 }
