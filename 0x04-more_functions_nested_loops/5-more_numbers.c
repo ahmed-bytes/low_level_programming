@@ -1,19 +1,21 @@
 #include "main.h"
 /**
- * print_numbers - A function that prints the numbers, from 0 to 9
+ * more_numbers - A function that prints the numbers, from 0 to 9
  * Return: returns 0 if successful
  */
 
-void print_most_numbers(void)
+void more_numbers(void)
 {
 	int num = 0;
 
-	while (num < 10)
+	while (num <= 10)
 	{
-		if (num != 2 && num != 4)
+		while (num <= 14)
 		{
-			_putchar(num + '0');
+			_putchar('0' + num);
+			num++
 		}
+		_putchar('\n');
 		num++;
 	}
 	_putchar('\n');
