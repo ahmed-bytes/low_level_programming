@@ -16,7 +16,7 @@ void print_triangle(int size)
 		while (lines < size)
 		{
 			space = size - 1;
-			while (space < line)
+			while (space < lines)
 			{
 				_putchar(' ');
 				--space;

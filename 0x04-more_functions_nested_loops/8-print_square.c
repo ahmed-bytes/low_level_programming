@@ -5,7 +5,7 @@
  * Return: returns 0 if successful
  */
 
-void print_square(int size);
+void print_square(int size)
 {
 	int rows, columns;
 
@@ -28,6 +28,6 @@ void print_square(int size);
 	}
 	else
 	{
-		_purchar('\n');
+		_putchar('\n');
 	}
 }
