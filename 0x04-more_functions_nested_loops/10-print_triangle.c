@@ -7,7 +7,7 @@
 
 void print_triangle(int size)
 {
-	int lines, space, rows;
+	int lines, space;
 
 	if (size > 0)
 	{
@@ -22,12 +22,12 @@ void print_triangle(int size)
 				--space;
 			}
 
-			rows = 0;
+			space = 0;
 
-			while (rows < lines + 1)
+			while (space < lines + 1)
 			{
 				_putchar('#');
-				rows++;
+				space++;
 			}
 			_putchar('\n');
 			lines++;
