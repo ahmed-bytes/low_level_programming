@@ -7,7 +7,7 @@
 
 void print_rev(char *s)
 {
-	int increase_count = 0;
+	int increase_count = 1;
 	int decrease_count;
 
 	for (; *s != '\0'; )
