@@ -7,19 +7,19 @@
 
 void print_rev(char *s)
 {
-	int increase_count = 1;
-	int decrease_count;
+	int decrease_count = 0;
 
-	for (; *s != '\0'; )
+	while (count >= 0)
 	{
-		increase_count++;
-		s++;
+		if (s[decrease_count] == '\0')
+		{
+			break;
+		}
+		decrease_count++;
 	}
-	for (decrease_count = increase_count; decrease_count >= 0; --decrease_count)
+	for (decrease_count; decrease_count >= 0; decrease_count--;)
 	{
-		_putchar(*s);
-		s--;
+		_putchar(s[decrease_count]);
 	}
-
 	_putchar('\n');
 }
