@@ -5,4 +5,6 @@
  * @n: The number of integers to swipe
  */
 void reverse_array(int *a, int n){
+	int counter;
+
 }
