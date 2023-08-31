@@ -24,11 +24,21 @@ int main(void)
   }
 
   /* finds the maximum and minimum number in the array */
-  int result_max = findMax(arr, size);
+  int result_max, result_min, sum_elements;
 
-  /* find the sum and prints out the numbers in the array */
+  result_max = findMax(arr, size);
+  result_min = findMin(arr, size);
 
-  printf("The Maximum Number is: %d\n", result_max);
+  /* find the sum of the numbers */ 
+  sum_elements = calculateSum(arr, size);
+
+  /* outputs the results */
+  printf("\t\t\t*****************************\n");
+  printf("\t\t\tThe Maximum Number is: %d\n", result_max);
+  printf("\t\t\tThe Minimum Number is: %d\n", result_min);
+  printf("\t\t\tSum of all Elements is: %d\n", sum_elements);
+  printArray(arr, size);
+  printf("\t\t\t*****************************\n");
 
   return (0);
 }
