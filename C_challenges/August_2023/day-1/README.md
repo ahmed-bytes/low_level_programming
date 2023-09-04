@@ -14,12 +14,12 @@ Write a program that takes a binary number as input and converts it into its dec
 
 ### Example
 
-`
+``
 Input: 1101
 
 Output: The Decimal Number for 1101 os 13
 
-`
+``
 
  
 ## Getting Started
