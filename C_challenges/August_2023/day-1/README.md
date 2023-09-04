@@ -13,15 +13,11 @@ Welcome to Day 1 of our coding challenge! In this challenge, you'll write a prog
 Write a program that takes a binary number as input and converts it into its decimal equivalent. The program should then print the decimal number followed by a new line.
 
 ### Example
-
-``
+```
 Input: 1101
 
-Output: The Decimal Number for 1101 os 13
-
-``
-
- 
+Output: The Decimal Number for 1101 is 13
+ ```
 ## Getting Started
 
 Here are the steps to participate in this challenge:
