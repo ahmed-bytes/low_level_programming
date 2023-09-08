@@ -1,22 +1,22 @@
-# Coding Challenge - Character Occurrence Counter
+# Coding Challenge - Vowel Counter
 
 ![Challenge Difficulty](https://img.shields.io/badge/Level-Beginner-brightgreen)
 ![Language](https://img.shields.io/badge/Language-C%2FC%2B%2B-blue)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
 
-Welcome to this coding challenge! In this beginner-level challenge, you'll write a program that finds and counts the occurrences of a specific character in a sentence provided by the user. Let's dive in!
+Welcome to this coding challenge! In this beginner-level challenge, you'll write a program that counts the number of vowels in a sentence provided by the user. Let's dive in!
 
 ## Challenge Description
 
 ### Problem Statement
 
-Write a program that takes a sentence and a target character as input from the user. Your program should count and print the number of times the target character appears in the sentence. The search for the character should be case-sensitive.
+Write a program that takes a sentence as input from the user and counts the number of vowels (i.e., 'a', 'e', 'i', 'o', 'u') in that sentence. Your program should be case-insensitive, meaning it should count both uppercase and lowercase vowels.
 
 ### Example
+
 ```c
-Enter a sentence: This is a sample sentence. This sentence is just a sample.
-Enter a character to count: s
-Occurrences of 's': 9
+Enter a sentence: This is a sample sentence.
+Number of vowels: 8
 ```
 
 
@@ -53,4 +53,5 @@ Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) while participating i
 Happy coding! 🚀
 
 #codechallenge #DSA
+
 
