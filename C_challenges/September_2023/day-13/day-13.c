@@ -11,7 +11,7 @@ int main(void)
 
   result = fib(n);
 
-  printf("The %d term in the finobacci sequence is: %d", n, result);
+  printf("The %d term in the finobacci sequence is: %d\n", n, result);
 
   return (0);
 }
@@ -21,7 +21,7 @@ int fib(int a)
 {
   if (a >= 3)
   {
-    return (fib(n-1) + fib(n-2));
+    return (fib(a-1) + fib(a-2));
   }
   else
   {
