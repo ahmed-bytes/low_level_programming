@@ -10,7 +10,11 @@ int main(void)
   int *p = array;
 
   printf("The value of %d in memory is %p\n", *p, p);
-  printf("The value of %d in memory is %p\n", *(p + 1), &(p + 1));
+  printf("The value of %d in memory is %p\n", *(p + 1), (p + 1));
+  printf("The value of %d in memory is %p\n", *(p + 2), (p + 2));
+  printf("The value of %d in memory is %p\n", *(p + 3), (p + 3));
+  printf("The value of %d in memory is %p\n", *(p + 4), (p + 4));
+  printf("The value of %d in memory is %p\n", *(p + 5), &array[5]);
 
   return 0;
 }
