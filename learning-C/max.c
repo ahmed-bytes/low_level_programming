@@ -1,30 +1,35 @@
 #include <stdio.h>
+#include <assert.h>
+#include <errno.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
 /**
  * a C program that accepts three integers and finds the maximum of three.
  */
 
 int main (void)
 {
-	int a, b, c;
+  int *numbers;
+  int size = 11, first_index = size - 1, result;
 
-	printf("Enter The first number:" );
-	scanf("%d", &a);
-	printf("Enter The second number:" );
-	scanf("%d", &b);
-	printf("Enter The third number:" );
-	scanf("%d", &c);
+  numbers = malloc(sizeof(int[size]));
 
-	if (a > b && a > c)
-	{
-		printf("a = %d\n", a);
-	}
-	else if (b > a && b > c)
-	{
-		printf("b = %d\n", b);
-	}
-	else
-	{
-		printf("c = %d\n", c);
-	}
-	return (0);
+  printf("Enter Numbers <= 10: ");
+  scanf("%i", numbers);
+
+  for (int i = 0; i < size; i++)
+  {
+    if (numbers[i] > numbers[first_index])
+    {
+      result = i;
+    }
+    first_index--;
+  }
+  result = first_index;
+
+  printf("The maximum Number is: %d\n", numbers[result]);
+
+  free(numbers);
 }
