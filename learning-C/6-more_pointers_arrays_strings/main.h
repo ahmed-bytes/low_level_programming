@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <stddef.h>
 #include <string.h>
+#include <strings.h>
 
 /* Functions Prototypes */
 void catstr(char *first, char *second);

@@ -16,7 +16,7 @@ int main(void)
   }
 
   printf("Enter the words to find: ");
-  scanf("%s[^\n]", words);
+  fgets(words, sizeof(words), stdin);
   longsen(words);
 
   char sentence[] = "The quick brown fox jumps over the lazy dog";
