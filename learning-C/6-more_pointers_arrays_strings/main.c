@@ -16,10 +16,10 @@ int main(void)
   }
 
   printf("Enter the words to find: ");
-  scanf("%[^\n]s", words);
+  scanf("%s[^\n]", words);
   longsen(words);
 
-  char sentence[] = "The quick lightorange fox";
+  char sentence[] = "The quick brown fox jumps over the lazy dog";
   longsen(sentence);
 
   free(words);
