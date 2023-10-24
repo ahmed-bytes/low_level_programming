@@ -3,13 +3,13 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Challenges](#challenges)
-    1. [Basics of C Programming](#basics-of-c-programming)
-    2. [Advanced Challenges](#advanced-challenges)
-    3. [Challenges with Structs](#challenges-with-structs)
-    4. [Challenges with Function Pointers and Variadic Functions](#challenges-with-function-pointers-and-variadic-functions)
-3. [How to Use](#how-to-use)
-4. [Contribution](#contribution)
+2. [Challenges](#https://github.com/ahmed-bytes/low_level_programming/tree/main/learning-C#-challenges)
+    1. [Basics of C Programming](#https://github.com/ahmed-bytes/low_level_programming/tree/main/learning-C#-basics-of-c-programming)
+    2. [Advanced Challenges](#https://github.com/ahmed-bytes/low_level_programming/tree/main/learning-C#-advanced-challenges)
+    3. [Challenges with Structs](#https://github.com/ahmed-bytes/low_level_programming/tree/main/learning-C#-challenges-with-structs)
+    4. [Challenges with Function Pointers and Variadic Functions](#https://github.com/ahmed-bytes/low_level_programming/tree/main/learning-C#-challenges-with-function-pointers-and-variadic-functions)
+3. [How to Use](#https://github.com/ahmed-bytes/low_level_programming/tree/main/learning-C#%EF%B8%8F-how-to-use)
+4. [Contribution](#https://github.com/ahmed-bytes/low_level_programming/tree/main/learning-C#-contribution)
 
 Welcome to the C Programming Challenges repository! This repository is designed to help you improve your C programming skills by tackling a series of challenges that cover a wide range of concepts. Each challenge is designed to strengthen your understanding of C programming, including pointers, arrays, strings, structs, function pointers, variadic functions, and even singly linked lists.
 
