@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 
 /**
 * main - Entry test program
@@ -17,11 +18,14 @@ int main(void)
 		return (-1);
 	}
 
-	s = "Holberton";
+	s = "The quick";
 
+	printf("Enter sentence: ");
 	scanf(" %[^\n]", str);
 
 	catstr(str, s);
+	long_word(str);
 
+	free(str);
 	return (0);
 }
