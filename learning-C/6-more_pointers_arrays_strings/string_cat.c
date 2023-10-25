@@ -1,7 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-
 /**
 * catstr - that takes two strings as input and concatenates them
 * @first: first string to join

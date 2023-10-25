@@ -1,27 +1,27 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+* main - Entry test program
+* Return: 0 means success else error
+*/
+
 int main(void)
 {
-  char *words;
+	char *str, *s;
 
-  /*first_str = malloc(sizeof(char) * 32);
-  second_str = malloc(sizeof(char) * 32);*/
-  words = malloc(sizeof(char) * 300);
+	str = malloc(sizeof(char) * 90);
+	if (check_string(str) == 1)
+	{
+		printf("NULL\n");
+		return (-1);
+	}
 
-  if (/*check_string(first_str) == 1 || check_string(second_str) == 1 || */(check_string(words)) == 1)
-  {
-    printf("....\n");
-    return 1;
-  }
+	s = "Holberton";
 
-  printf("Enter the words to find: ");
-  fgets(words, sizeof(words), stdin);
-  longsen(words);
+	scanf(" %[^\n]", str);
 
-  char sentence[] = "The quick brown fox jumps over the lazy dog";
-  longsen(sentence);
+	catstr(str, s);
 
-  free(words);
-  return (0);
+	return (0);
 }
