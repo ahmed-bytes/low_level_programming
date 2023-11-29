@@ -18,13 +18,16 @@ int main(void)
 		return (-1);
 	}
 
-	s = "The quick";
+	s = "brave man";
+	int len = strlen(s);
+	printf("%d\n", len);
 
 	printf("Enter sentence: ");
 	scanf(" %[^\n]", str);
 
 	catstr(str, s);
 	long_word(str);
+	rev_word(str);
 
 	free(str);
 	return (0);
